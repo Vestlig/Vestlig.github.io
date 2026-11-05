@@ -1,0 +1,6 @@
+---
+title: TITLE-可不与文件名的TITLE相同
+date: YYYY-MM-DD HH:MM:SS +0800
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]  # categories是文章的分类，支持至多两级分类
+tags: [TAG]  # tags是文章的标签，可以有任意多个
+---
