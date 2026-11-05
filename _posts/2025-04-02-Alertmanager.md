@@ -212,7 +212,7 @@ alerting:
 
 ## 告警规则示例（`alerts.yml`）：  
 
-```Plain Text
+```python
 groups:  
 - name: node-alerts  
   rules:  
@@ -222,7 +222,7 @@ groups:
     labels:  
       severity: critical  
     annotations:  
-      summary: "节点内存不足 ({{ $value }}% 可用)"  
+      summary: "节点内存不足 ({{ value }}% 可用)"  
 ```
 
 
