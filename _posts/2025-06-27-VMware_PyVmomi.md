@@ -1,5 +1,5 @@
 ---
-title: Node Exporter
+title: PyVmomi
 date: 2025-04-03 13:48:00 +0800
 categories: [虚拟平台, VMware]  # categories是文章的分类，支持至多两级分类
 tags: [VMware, pyvmomi, 已知问题]  # tags是文章的标签，可以有任意多个
