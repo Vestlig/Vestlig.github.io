@@ -116,7 +116,7 @@ scrape_configs:
 
 ## 警报规则配置（`alerts.yml`）  
 
-```Plain Text
+```python
 groups:  
 - name: example  
   rules:  
@@ -126,8 +126,8 @@ groups:
     labels:  
       severity: critical  
     annotations:  
-      summary: "高请求延迟 ({{ $value }}秒)"  
-      description: "实例 {{ $labels.instance }} 的延迟持续超过阈值。"  
+      summary: "高请求延迟 ({{ value }}秒)"  
+      description: "实例 {{ labels.instance }} 的延迟持续超过阈值。"  
 ```
 
 

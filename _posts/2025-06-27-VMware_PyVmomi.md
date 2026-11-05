@@ -18,7 +18,7 @@ tags: [VMware, pyvmomi, 已知问题]  # tags是文章的标签，可以有任�
 
 TypeError: VirtualQAT
 
-![image\.png](图片和附件/spiffworkflow_image_1.png)
+![image\.png](/assets/lib/spiffworkflow_image_1.png)
 
 ## 现有资料：
 

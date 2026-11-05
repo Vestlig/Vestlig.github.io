@@ -130,7 +130,7 @@ scrape_configs:
 
 ## 关键监控告警规则（示例）  
 
-```Plain Text
+```python
 alerts.yml  
 groups:  
 - name: node-alerts  
@@ -141,7 +141,7 @@ groups:
     labels:  
       severity: critical  
     annotations:  
-      summary: "磁盘空间不足 (实例 {{ $labels.instance }})"  
+      summary: "磁盘空间不足 (实例 {{ labels.instance }})"  
 ```
 
 

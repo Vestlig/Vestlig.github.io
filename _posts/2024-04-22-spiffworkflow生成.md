@@ -12,7 +12,7 @@ tags: [spiffworkflow, Bpmn]  # tags是文章的标签，可以有任意多个
 
 如下图：
 
-![image\.png](图片和附件/spiffworkflow_image_1.png)
+![image\.png](/assets/lib/spiffworkflow_image_1.png)
 
 # 使用步骤
 
